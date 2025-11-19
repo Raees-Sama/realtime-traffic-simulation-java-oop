@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Simulation",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "realtime-traffic-simulation",
+            "vmArgs": "-Djava.library.path=\"C:/Program Files (x86)/Eclipse/Sumo/bin\"",
+            "env": {
+                "PATH": "${env:PATH};C:\\Program Files (x86)\\Eclipse\\Sumo\\bin"
+            }
+        }
+    ]
+}
