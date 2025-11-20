@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-19 19:20:27 by Eclipse SUMO netedit Version 1.24.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE"/>
+    <vType id="t_0"/>
+    <vType id="t_1" vClass="bus"/>
+    <vType id="t_2"/>
+    <!-- Routes -->
+    <route id="Bus-r" edges="E37 E33 E36 -E20 E22 E50" color="cyan"/>
+    <route id="r_0" edges="-E8 E6 E1 E3"/>
+    <route id="r_1" edges="-E8 E6 E1 E2 E5" color="black"/>
+    <route id="r_2" edges="E37 E33 E36 -E20 E22 E50" color="128,128,0"/>
+    <route id="r_3" edges="E37 E34 -E26 -E24 -E3 E3 E24 E26 E27 E28 E31 -E30 -E29 -E4 -E2 E3 E24 E26 E27 E28 E31 -E30 -E29 -E4 -E2 E3 E24 E26 E27 E28 E31 -E30 -E29 -E4 -E2 -E1 E0 E10 E11 E21 -E51" color="128,0,0"/>
+    <route id="r_4" edges="-E50 -E21 -E11 -E10 -E0 E1 E2 E4 E29 E30 E42 E44 E52" color="128,0,128"/>
+    <route id="r_5" edges="-E23 -E5 E4 E29 E30 E46 E47" color="0,128,91"/>
+    <route id="r_6" edges="-E23 -E5 E4 E29 E30 E42 E43" color="0,128,91"/>
+    <route id="r_7" edges="E37 E34 E27 E28 E32" color="magenta"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="v_0" depart="0.00" color="cyan" route="r_1">
+        <stop lane="E2_0" startPos="34.06" endPos="44.06" duration="10.00"/>
+    </vehicle>
+    <vehicle id="v_1" depart="0.00" color="cyan" route="r_1"/>
+    <vehicle id="v_10" depart="0.00" color="128,0,0" route="r_5"/>
+    <vehicle id="v_11" depart="0.00" route="r_6"/>
+    <vehicle id="v_12" depart="0.00" route="r_5"/>
+    <vehicle id="v_13" depart="0.00" route="r_4"/>
+    <vehicle id="v_14" depart="0.00" route="r_2"/>
+    <vehicle id="v_15" depart="0.00" route="r_7"/>
+    <vehicle id="v_16" type="DEFAULT_TAXITYPE" depart="0.00" route="r_3">
+        <stop lane="-E3_0" startPos="85.13" endPos="95.13" duration="10.00"/>
+    </vehicle>
+    <vehicle id="v_17" depart="0.00" route="r_2"/>
+    <vehicle id="v_18" depart="0.00" route="r_7"/>
+    <vehicle id="v_19" type="t_1" depart="0.00" color="cyan" route="r_2"/>
+    <vehicle id="v_2" depart="0.00" color="cyan" route="r_7"/>
+    <vehicle id="v_20" type="t_1" depart="0.00" color="cyan" route="r_2"/>
+    <vehicle id="v_21" type="t_1" depart="0.00" color="cyan" route="Bus-r">
+        <param key="addstop" value="stop_0"/>
+    </vehicle>
+    <vehicle id="v_3" depart="0.00" color="cyan" route="r_7"/>
+    <vehicle id="v_4" depart="0.00" color="44,255,0" route="r_2"/>
+    <vehicle id="v_5" depart="0.00" color="44,255,0" route="r_3"/>
+    <vehicle id="v_6" depart="0.00" color="44,255,0" route="r_4"/>
+    <vehicle id="v_7" depart="0.00" color="blue" route="r_4"/>
+    <vehicle id="v_8" depart="0.00" color="blue" route="r_5"/>
+    <vehicle id="v_9" depart="0.00" color="blue" route="r_5"/>
+    <person id="p_0" depart="0.00" color="cyan">
+        <personTrip from="-E12" to="E10"/>
+    </person>
+    <person id="p_1" depart="0.00" color="magenta">
+        <personTrip from="E6" to="E1"/>
+    </person>
+</routes>
